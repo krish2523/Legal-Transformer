@@ -17,7 +17,7 @@ class LegalDocumentProcessor:
         load_dotenv()
         self.llm = ChatOpenAI(
             temperature=0.2, 
-            model="gpt-4.1-nano-2025-04-14",
+            model="gpt-4o-mini",
         )
         
         # Supported languages with their codes
