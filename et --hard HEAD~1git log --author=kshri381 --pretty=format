@@ -1,0 +1,114 @@
+[33mcommit 8003ff98798ac954fc230471bb58f975396b4ab5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: kshri381 <shrivastava537@gmail.com>
+Date:   Fri Apr 18 19:31:44 2025 +0530
+
+    risk analysis updated
+
+[33mcommit a33a4bd4708dd59a57ec6889c6707f111b78b646[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 19:30:43 2025 +0530
+
+    Updated feature page
+
+[33mcommit e1b917c14b44e88c85ee32767e38193fd6b65082[m
+Merge: 02fa394 00b2ed0
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 19:25:44 2025 +0530
+
+    Merge branch 'main' of https://github.com/krish2523/Legal-Transformer
+
+[33mcommit 02fa394f5de4ad35807f575e09ad4e86ad105123[m
+Author: kshri381 <shrivastava537@gmail.com>
+Date:   Fri Apr 18 17:36:57 2025 +0530
+
+    updated the risk analysis and document frontend
+
+[33mcommit 00b2ed00b525b95a9568f1f13ae7d3d8e9237dba[m
+Author: kshri381 <shrivastava537@gmail.com>
+Date:   Fri Apr 18 19:00:40 2025 +0530
+
+    hello
+
+[33mcommit 17ac979551c36deb205754c6ddbd00d7ffc45baa[m
+Author: Krish Kapoor <147299723+krish2523@users.noreply.github.com>
+Date:   Fri Apr 18 18:30:20 2025 +0530
+
+    Update README.md
+
+[33mcommit 0332ac39160a59d7e135487bef790a80104f3f7f[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 17:36:57 2025 +0530
+
+    updated the risk analysis and document frontend
+
+[33mcommit 207c550130bd050b516716d021c2fdb7b4e09d4a[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 17:32:29 2025 +0530
+
+    updated the landing page
+
+[33mcommit 9772e54ea4b1db615cf4294625899d7e47ecff0a[m
+Author: Shyam Mohan Tripathi <rkknightlx@gmail.com>
+Date:   Fri Apr 18 15:55:55 2025 +0530
+
+    changes to analysis risk
+
+[33mcommit 5dec96cf7110d9bf5b93047dcdacdc40c31e3e8e[m
+Author: Shyam Mohan Tripathi <rkknightlx@gmail.com>
+Date:   Fri Apr 18 15:54:40 2025 +0530
+
+    analysis_Risk backend
+
+[33mcommit 989410338d611ff128cdfcaed4c475a58f57c783[m
+Author: kshri381 <shrivastava537@gmail.com>
+Date:   Fri Apr 18 15:48:58 2025 +0530
+
+    feature page updated
+
+[33mcommit a36229f0fb539fa036691c191fcbeb5186b63fef[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 15:27:49 2025 +0530
+
+    Added Pages in frontend to be shown
+
+[33mcommit 4bd37696b217b20c308c9931f428f41def9ab5ff[m
+Author: Shyam Mohan Tripathi <rkknightlx@gmail.com>
+Date:   Fri Apr 18 15:22:49 2025 +0530
+
+    changes to landing page
+
+[33mcommit 91b97b7d9b1b833874bf721e403c6e7bc2e03817[m
+Author: kshri381 <shrivastava537@gmail.com>
+Date:   Fri Apr 18 15:18:55 2025 +0530
+
+    landing page css updated
+
+[33mcommit 51c58371f2895c91568f1cc3e9b9f86050c905e7[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 15:09:38 2025 +0530
+
+    Updated files
+
+[33mcommit 9a579fc95f8331cc853d905d05e25fe12822f930[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 14:52:05 2025 +0530
+
+    Updated files
+
+[33mcommit b98b0208fbb91b978094e612105b56d29f235c4d[m
+Author: krish2523 <krishkapoor20112005@gmail.com>
+Date:   Fri Apr 18 14:50:30 2025 +0530
+
+    Updated files
+
+[33mcommit e6bf857678c19e000dca0a962c37e9c23bb79625[m
+Author: Shyam Mohan Tripathi <rkknightlx@gmail.com>
+Date:   Fri Apr 18 14:40:37 2025 +0530
+
+    Folder Structure+ Requirements
+
+[33mcommit c62aeb6453c107d1e38f88402618776241e6cf74[m
+Author: Krish Kapoor <147299723+krish2523@users.noreply.github.com>
+Date:   Fri Apr 18 14:25:37 2025 +0530
+
+    Initial commit
