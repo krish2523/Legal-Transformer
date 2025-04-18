@@ -18,7 +18,7 @@ def main_app():
     
     # Sidebar layout
     with st.sidebar:
-        st.markdown("<h2 style='text-align: center;'>⚖️ JuriScriptor</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center;'>⚖️ Legal-Transformer</h2>", unsafe_allow_html=True)
         st.markdown("<p style='text-align: center; font-size: 14px; color: gray;'>Your AI Legal Companion</p>", unsafe_allow_html=True)
 
         st.markdown("---")  # Separator
