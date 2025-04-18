@@ -51,7 +51,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **DataNinja22** - *Initial work* - [DataNinja22](https://github.com/DataNinja22)
+- **Shyam Mohan Tripathi** 
+- **Krish Kapoor**
+- **Khushi**
+- **Vedant Saxena**
 
 ---
 
