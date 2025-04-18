@@ -1,0 +1,216 @@
+/* Dark Theme CSS for Feature Page */
+
+/* Main app container */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Header styling */
+.stMarkdown h1 {
+    color: #3498db;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(52, 152, 219, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.stMarkdown h2 {
+    color: #5dade2;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.stMarkdown h3 {
+    color: #7fb3d5;
+    font-size: 1.4rem;
+}
+
+/* Text elements */
+.stMarkdown p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Input fields */
+.stTextInput input, .stTextArea textarea, .stNumberInput input {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    border-radius: 6px !important;
+    padding: 0.5rem 0.75rem !important;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus, .stNumberInput input:focus {
+    border-color: #3498db !important;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2) !important;
+}
+
+/* Unified Button Styling (excluding radio buttons) */
+.stButton button,
+[data-testid="stDownloadButton"] button,
+.stSelectbox select,
+.stFileUploader > div > section > button,
+.stDateInput button,
+.stTimeInput button,
+.stMultiSelect button,
+.stColorPicker button {
+    background: linear-gradient(135deg, #3498db 0%, #2576b9 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+    margin: 0.25rem 0 !important;
+}
+
+.stButton button:hover,
+[data-testid="stDownloadButton"] button:hover,
+.stSelectbox select:hover,
+.stFileUploader > div > section > button:hover,
+.stDateInput button:hover,
+.stTimeInput button:hover,
+.stMultiSelect button:hover,
+.stColorPicker button:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #1a5889 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Cards and containers */
+.stAlert, .stJson, .stDataFrame {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Tables */
+.stDataFrame {
+    background-color: #1e1e1e !important;
+}
+
+.stDataFrame th {
+    background-color: #2c3e50 !important;
+    color: white !important;
+}
+
+.stDataFrame tr:nth-child(even) {
+    background-color: #252525 !important;
+}
+
+.stDataFrame tr:nth-child(odd) {
+    background-color: #1e1e1e !important;
+}
+
+/* Expanders */
+.stExpander {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    border-radius: 10px !important;
+}
+
+.stExpander summary {
+    color: #3498db !important;
+    font-weight: 600 !important;
+}
+
+/* Code blocks */
+.stCodeBlock pre {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    border-radius: 8px !important;
+    color: #f0f0f0 !important;
+}
+
+/* Spinner */
+.stSpinner > div {
+    border-color: #3498db transparent transparent transparent !important;
+}
+
+/* Tooltips */
+[data-baseweb="tooltip"] {
+    background-color: #2c3e50 !important;
+    color: white !important;
+    border: 1px solid #3498db !important;
+}
+
+/* Sliders */
+.stSlider .st-bd {
+    background-color: #1e1e1e !important;
+}
+
+.stSlider .st-fg {
+    background-color: #3498db !important;
+}
+
+.stSlider .st-knob {
+    background-color: #3498db !important;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.5) !important;
+}
+
+/* Checkboxes */
+.stCheckbox {
+    color: #e0e0e0 !important;
+}
+
+.stCheckbox .st-cb {
+    accent-color: #3498db !important;
+}
+
+/* Select boxes */
+.stSelectbox select {
+    background-color: #1e1e1e !important;
+    color: #f0f0f0 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 6px !important;
+}
+
+/* File uploader dropzone */
+.stFileUploader > div > section {
+    background-color: #1e1e1e !important;
+    border: 1px dashed #3498db !important;
+    border-radius: 10px !important;
+}
+
+.stFileUploader > div > section:hover {
+    border-color: #5dade2 !important;
+    background-color: #252525 !important;
+}
+
+/* Chat messages */
+.stChatMessage {
+    border-radius: 10px !important;
+    padding: 0.75rem 1rem !important;
+    margin-bottom: 0.75rem !important;
+    max-width: 85% !important;
+}
+
+.stChatMessage.user {
+    background-color: #2c3e50 !important;
+    margin-left: auto !important;
+}
+
+.stChatMessage.assistant {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    margin-right: auto !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [data-testid="stAppViewContainer"] {
+        padding: 1rem !important;
+    }
+    
+    .stMarkdown h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stMarkdown h2 {
+        font-size: 1.5rem;
+    }
+}
