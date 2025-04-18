@@ -3,7 +3,7 @@ import os
 
 def set_page_config():
     st.set_page_config(
-        page_title="JuriScriptor",
+        page_title="LegalEase",
         page_icon="⚖️", 
         layout="wide",
         initial_sidebar_state="expanded"
