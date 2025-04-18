@@ -1,0 +1,201 @@
+/* Overall styling */
+.main {
+    background-color: #f8f9fa; /* Light background, consider #1a1a1a for dark mode */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styling */
+.header-banner {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darker shadow for dark mode */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.landing-title {
+    color: #ffffff; /* Already good for dark mode */
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.landing-subtitle {
+    color: rgba(255, 255, 255, 0.9); /* Already good */
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Intro text */
+.intro-text {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
+    color: #e0e0e0; /* Changed from #333 to lighter gray */
+    padding: 0 1rem;
+}
+
+/* Feature cards */
+.feature-section {
+    margin: 3rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffffff; /* Changed from #2c3e50 to white */
+}
+
+.feature-card {
+    background-color: #2d2d2d; /* Darker background */
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #404040; /* Lighter border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: #404040; /* Darker circle background */
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    color: #ffffff; /* Ensure icon is visible */
+}
+
+.feature-card h3 {
+    color: #ffffff; /* Changed from #2c3e50 */
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.feature-card p {
+    color: #cccccc; /* Changed from #666 to lighter gray */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Productivity section */
+.productivity-banner {
+    background: linear-gradient(to right, #2980b9, #2c3e50);
+    color: #ffffff; /* Already good */
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 200px;
+}
+
+.productivity-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    color: #ffffff; /* Explicitly set */
+}
+
+.productivity-text {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    line-height: 1.6;
+    max-width: 900px;
+    color: #f0f0f0; /* Slightly lighter for readability */
+}
+
+/* Benefits section */
+.benefits-list {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+    color: #e0e0e0; /* Added for visibility */
+}
+
+.benefits-list li {
+    margin-bottom: 0.7rem;
+}
+
+/* CTA button */
+.cta-container {
+    text-align: center;
+    margin: 3rem auto;
+    max-width: 400px;
+}
+
+div[data-testid="stButton"] button {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: white !important;
+    font-size: 1.2rem;
+    padding: 0.75rem 2rem;
+    border-radius: 30px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 600;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 12rem;
+    margin-bottom: 5rem;
+    display: block;
+}
+
+div[data-testid="stButton"] button:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #1f618d 100%);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+    border-color: #cccccc; /* Lighter border on hover */
+}
+
+div[data-testid="stButton"] button:before {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    font-size: 1.5rem;
+    opacity: 0;
+    transition: all 0.5s ease;
+    color: #ffffff; /* Ensure visibility */
+}
+
+div[data-testid="stButton"] button:hover:before {
+    left: 20px;
+    opacity: 1;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: #cccccc; /* Changed from #1b1b1b to lighter gray */
+    font-size: 0.9rem;
+    border-top: 1px solid #404040; /* Lighter border */
+}
