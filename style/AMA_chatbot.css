@@ -1,1 +1,211 @@
-*{}
+* Unified Dark Theme CSS for Legal Chatbot */
+
+/* ===== GLOBAL STYLES ===== */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* ===== LANDING PAGE SPECIFIC ===== */
+/* Header styling */
+.header-banner {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.landing-title {
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.landing-subtitle {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Intro text */
+.intro-text {
+    font-size: 1.3rem;
+    line-height: 1.6;
+    text-align: center;
+    margin: 2rem auto;
+    max-width: 800px;
+    color: #e0e0e0;
+    padding: 0 1rem;
+}
+
+/* Feature cards */
+.feature-section {
+    margin: 3rem 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+.feature-card {
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #404040;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: #404040;
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    color: #ffffff;
+}
+
+/* Productivity section */
+.productivity-banner {
+    background: linear-gradient(to right, #2980b9, #2c3e50);
+    color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* ===== FEATURE PAGE SPECIFIC ===== */
+/* Chat interface */
+.stChatMessage {
+    border-radius: 10px !important;
+    padding: 0.75rem 1rem !important;
+    margin-bottom: 0.75rem !important;
+    max-width: 85% !important;
+}
+
+.stChatMessage.user {
+    background-color: #2c3e50 !important;
+    margin-left: auto !important;
+}
+
+.stChatMessage.assistant {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    margin-right: auto !important;
+}
+
+/* Input fields */
+.stTextInput input, .stTextArea textarea {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    border-radius: 6px !important;
+    padding: 0.5rem 0.75rem !important;
+}
+
+/* ===== SHARED COMPONENTS ===== */
+/* Buttons */
+.stButton button,
+[data-testid="stDownloadButton"] button,
+div[data-testid="stButton"] button {
+    background: linear-gradient(135deg, #3498db 0%, #2576b9 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.stButton button:hover,
+[data-testid="stDownloadButton"] button:hover,
+div[data-testid="stButton"] button:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #1a5889 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Cards and containers */
+.stAlert, .stJson, .stDataFrame {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    border-radius: 10px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Headers */
+.stMarkdown h1 {
+    color: #3498db;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(52, 152, 219, 0.3);
+    padding-bottom: 0.5rem;
+}
+
+.stMarkdown h2 {
+    color: #5dade2;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+}
+
+.stMarkdown h3 {
+    color: #7fb3d5;
+    font-size: 1.4rem;
+}
+
+/* Text elements */
+.stMarkdown p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [data-testid="stAppViewContainer"] {
+        padding: 1rem !important;
+    }
+    
+    .landing-title {
+        font-size: 2.5rem;
+    }
+    
+    .landing-subtitle, .section-title {
+        font-size: 1.3rem;
+    }
+    
+    .stMarkdown h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stMarkdown h2 {
+        font-size: 1.5rem;
+    }
+}
