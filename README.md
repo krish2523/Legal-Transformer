@@ -1,1 +1,1 @@
-# LegalEase
+# Legal-Transformer
