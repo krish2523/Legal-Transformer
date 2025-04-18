@@ -3,7 +3,7 @@ import os
 
 def set_page_config():
     st.set_page_config(
-        page_title="LegalEase",
+        page_title="Legal-Transformer",
         page_icon="⚖️", 
         layout="wide",
         initial_sidebar_state="expanded"
@@ -30,7 +30,7 @@ def show_landing_page():
         """
         <div class="header-banner">
             <div class="header-content">
-                <h1 class="landing-title" style="margin-left: 40px;">LegalEase ⚖️</h1>
+                <h1 class="landing-title" style="margin-left: 40px;">Legal-Transformer ⚖️</h1>
                 <p class="landing-subtitle" style="margin-left: -40px;">Transforming legal workflows with artificial intelligence</p>
             </div>
         </div>
