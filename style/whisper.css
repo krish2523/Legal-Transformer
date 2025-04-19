@@ -1,0 +1,145 @@
+/* transcriber.css - Styles for Audio Transcription Page */
+
+/* Main container */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+/* Tab Styling - Consistent with other pages */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background-color: #1e1e1e !important;
+    color: #cccccc !important;
+    border-radius: 8px 8px 0 0 !important;
+    padding: 0.75rem 1.5rem !important;
+    border: 1px solid #333333 !important;
+    border-bottom: none !important;
+    margin-right: 0.25rem !important;
+    transition: all 0.3s ease !important;
+    font-weight: 500 !important;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: #3498db !important;
+    color: white !important;
+    border-color: #3498db !important;
+    box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3) !important;
+}
+
+.stTabs [data-baseweb="tab"]:hover:not([aria-selected="true"]) {
+    background-color: #252525 !important;
+    color: #ffffff !important;
+}
+
+/* Tab Content Area */
+.stTabs [data-baseweb="tab-panel"] {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 0 8px 8px 8px;
+    padding: 1.5rem;
+    margin-top: -1px;
+}
+
+/* File Uploader Styling */
+.stFileUploader > div > section {
+    background-color: #1e1e1e !important;
+    border: 2px dashed #3498db !important;
+    border-radius: 12px !important;
+    padding: 2rem !important;
+    transition: all 0.3s ease !important;
+}
+
+.stFileUploader > div > section:hover {
+    border-color: #5dade2 !important;
+    background-color: #252525 !important;
+}
+
+/* Buttons - Consistent with main theme */
+.stButton button,
+.stDownloadButton button {
+    background: linear-gradient(135deg, #3498db 0%, #2576b9 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 25px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #1a5889 100%) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Expander for Transcript */
+.stExpander {
+    background-color: #1e1e1e !important;
+    border: 1px solid #333333 !important;
+    border-radius: 8px !important;
+    margin: 1rem 0 !important;
+}
+
+.stExpander summary {
+    color: #3498db !important;
+    font-weight: 600 !important;
+    padding: 0.75rem 1rem !important;
+}
+
+/* Transcript Text */
+.transcript-text {
+    background-color: #252525;
+    border-radius: 8px;
+    padding: 1rem;
+    font-family: monospace;
+    white-space: pre-wrap;
+    border-left: 3px solid #3498db;
+}
+
+/* Summary Output */
+.summary-output {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    border-left: 4px solid #2ecc71;
+}
+
+/* Download Buttons Container */
+.download-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+
+@keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .stTabs [data-baseweb="tab"] {
+        padding: 0.5rem 1rem !important;
+        font-size: 0.9rem !important;
+    }
+    
+    .stTabs [data-baseweb="tab-panel"] {
+        padding: 1rem;
+    }
+        
+    .download-buttons {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}
