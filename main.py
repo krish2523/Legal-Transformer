@@ -4,7 +4,7 @@ import warnings
 # Import landing first
 from frontend.landing_page import set_page_config, show_landing_page
 # Then import feature_page
-# from frontend.feature_page import main_app
+from frontend.feature_page import main_app
 warnings.filterwarnings("ignore", category=UserWarning)
 
 
@@ -15,8 +15,8 @@ def main():
     
     if st.session_state['page'] == 'landing':
         show_landing_page()
-    # else:
-        # main_app()
+    else:
+        main_app()
 
 if __name__ == "__main__":
     main()
