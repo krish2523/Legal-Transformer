@@ -1,0 +1,148 @@
+/* RAG Chatbot Specific CSS maintaining consistency with Feature and Landing Pages */
+
+/* Main container */
+[data-testid="stAppViewContainer"] {
+    background-color: #121212;
+    color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Title and Headers */
+.stMarkdown h1 {
+    color: #3498db;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid rgba(52, 152, 219, 0.3);
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+.stMarkdown h2 {
+    color: #5dade2;
+    font-size: 1.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+
+.stMarkdown p {
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Chat container */
+.stChatMessage {
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.75rem;
+    max-width: 85%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.stChatMessage.user {
+    background-color: #2c3e50;
+    margin-left: auto;
+    color: #ffffff;
+}
+
+.stChatMessage.ai-lawyer {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    margin-right: auto;
+    color: #f0f0f0;
+}
+
+/* Input field */
+.stChatInput input {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+    border-radius: 25px !important;
+    padding: 0.6rem 1.2rem !important;
+    font-size: 1rem;
+}
+
+.stChatInput input:focus {
+    border-color: #3498db !important;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2) !important;
+}
+
+/* File uploader */
+.stFileUploader > div > section {
+    background-color: #1e1e1e;
+    border: 1px dashed #3498db;
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.stFileUploader > div > section:hover {
+    border-color: #5dade2;
+    background-color: #252525;
+}
+
+.stFileUploader > div > section > button {
+    background: linear-gradient(135deg, #3498db 0%, #2576b9 100%);
+    color: white !important;
+    border: none;
+    border-radius: 25px;
+    padding: 0.6rem 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.stFileUploader > div > section > button:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #1a5889 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Info and Success messages */
+.stAlert {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
+
+.stAlert[role="alert"] {
+    background: linear-gradient(to right, #2980b9, #2c3e50);
+    color: #ffffff;
+    border: none;
+}
+
+/* Spinner */
+.stSpinner > div {
+    border-color: #3498db transparent transparent transparent !important;
+}
+
+/* Current Document Display */
+.stMarkdown .stText {
+    color: #cccccc;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #404040;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [data-testid="stAppViewContainer"] {
+        padding: 1rem !important;
+    }
+    
+    .stMarkdown h1 {
+        font-size: 1.8rem;
+    }
+    
+    .stMarkdown h2 {
+        font-size: 1.5rem;
+    }
+    
+    .stChatMessage {
+        max-width: 95%;
+    }
+}
